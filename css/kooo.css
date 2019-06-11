@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	color: white;
+	text-decoration:none
+}
+.mainPage{
+	width: 100%;
+	height: 100%;
+}
+.header{
+	width: 1000px;
+    height: 78px;
+    margin: 0 auto;
+}
+.logo{
+	line-height: 90px;
+	float: left;
+}
+.search_wrapper{
+	width: 300px;
+    height: 36px;
+    float: left;
+    margin-left: 80px;
+    padding-top: 24px;
+}
+.search_input{
+	
+}
+.topNav{
+	width: 402px;
+    margin-left: -100px;
+    margin-top: -3px;
+    float: left;
+}   
+.topNav ul{
+	width: 402px;
+    margin-left: -40px;
+    margin-top: 18px;
+    float: left;
+}
+.topNav li{
+	float: left;
+	list-style: none;
+    line-height: 39px;
+    padding-left: 50px;
+    font-size: 15px;
+    color: #777;
+}
+.clearfix{
+	width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+}
+.left_btn {
+    float: left;
+    display: block;
+    width: 48px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #169af3;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #169af3;
+}
+.navWrap{
+	width: 100%;
+	height: 50px;
+    position: relative;
+    z-index: 999;
+    background-color: #2c323b;
+}
+.nav{
+	width: 1000px;
+    position: relative;
+    z-index: 200;
+    float: left;
+    margin-left: -200px;
+}
+.homeNav{
+	position: relative;
+    z-index: 2;
+    background-color: #2c323b;
+    float: left;
+}
+.homeNav li{
+	color: white;
+    list-style: none;
+    float: left;
+    font-size: 17px;
+    line-height: 50px;
+    padding: 0 30px;
+}
+.homeNavli{
+	width: 113px;
+	position: relative;
+}
+.homeNavli div{
+	display: none;
+	position: absolute;
+}
+.homeNavli img{
+	float: right;
+	padding-top:18px;
+}
+.homeNavli div a{
+	display: inline-block;
+	width: 113px;
+}
+.secondMenu{
+	float: left;
+    margin-left: 68px;
+}
+.secondMenu li{
+	float: left;
+    color: white;
+    font-size: 15px;
+    list-style: none;
+    margin-left: 30px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.wrp{
+	width: 1000px;
+	height: 1275px;
+	border: solid 1px red;
+	margin: 0 auto;
+}
+.mbx{
+	color: #ada8a8;
+    margin: 15px 0;
+}
+.mbx a{
+	color: #3d3d3d;
+	text-decoration: none;
+	font-size: 14px;
+}
+.mbx span{
+	font-size: 14px;
+}
+.top{
+	height: 142px;
+    border: 1px solid #adadad;
+    width: 780px;
+    float: left;
+    margin-right: 10px;
+    display: inline;
+}
+.intor{
+    height: 132px;
+    width: 571px;
+    padding: 10px 0 0 30px;
+    overflow: hidden;
+    color: #464646;
+}
+.clear_fix{
+	float: left;
+	color: #393939;
+    font-size: 16px;
+}
+.clear_fix strong{
+    width: 240px;
+    height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.clear_fix p{
+	width: 551.5px;
+	font: 13px/1.5 \5FAE\8F6F\96C5\9ED1,simsun,sans-serif;
+    height: 55px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 17px;
+}
+.clear_fix em{
+	color: #373737;
+    float: right;
+    padding-right: 32px;
+    margin-top: 7px;
+    font-style: normal;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.other_singer{
+    width: 205px;
+    border-bottom: 5px solid #b8b8b8;
+    height: 138px;
+    position: relative;
+}
